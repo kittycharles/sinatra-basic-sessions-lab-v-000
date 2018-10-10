@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   configure do
     enable :sessions
-    set :item
+    set :item, "item"
   end
 
   get '/' do
